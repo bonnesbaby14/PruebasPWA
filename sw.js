@@ -1,4 +1,6 @@
 console.log("refistrado");
+
+// se crea una lista de lo que se debe guardar en el cache
 const CACHE_ELEMENTS = [
   "./",
   "https://unpkg.com/react@17/umd/react.production.min.js",
@@ -7,6 +9,7 @@ const CACHE_ELEMENTS = [
   //tambien los estilos y componentes
 ];
 
+// se guardar el nombre del chache
 const CACHE_NAME = "v2_contador";
 
 self.addEventListener("install", (e) => {

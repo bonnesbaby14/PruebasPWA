@@ -189,8 +189,11 @@
     </script>
 
     <script type="text/babel">
+      // scripts hechos con babel
       if ("serviceWorker" in navigator) {
+        // verificar que exista service worker en el navegador
         console.log("si hay sevrice");
+        // Se regustarn todos los pasos de un service worker
         navigator.serviceWorker.register("./sw.js");
       }
     </script>
